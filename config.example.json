@@ -1,0 +1,35 @@
+{
+  "master": {
+    "login": 12345678,
+    "password": "MASTER_PASSWORD",
+    "server": "MasterBroker-Server",
+    "path": "C:/Program Files/Master MetaTrader 5/terminal64.exe"
+  },
+  "slave": {
+    "login": 87654321,
+    "password": "SLAVE_PASSWORD",
+    "server": "SlaveBroker-Server",
+    "path": "C:/Program Files/Slave MetaTrader 5/terminal64.exe"
+  },
+  "risk": {
+    "risk_percent": 1.0,
+    "max_slippage_points": 50,
+    "min_lot": 0.01,
+    "lot_step": 0.01,
+    "max_lot": 50.0,
+    "skip_if_no_sl": true,
+    "default_sl_points": 1000
+  },
+  "symbols_map": {
+    "XAUUSD": "XAUUSD.a",
+    "GER40": "DE40"
+  },
+  "copy": {
+    "copy_open": true,
+    "copy_close": true,
+    "poll_interval_sec": 0.5,
+    "sync_existing_positions_on_start": true,
+    "magic": 333777,
+    "comment_prefix": "copied:"
+  }
+}
